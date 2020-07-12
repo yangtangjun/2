@@ -1,0 +1,224 @@
+*{padding: 0; margin: 0; list-style: none; text-decoration: none; font-family: "黑体";}
+#top{
+    width: 1920px;
+    height: 100px;
+    margin: auto;
+}
+#top .top-xiala{
+    width: 1920px;
+    height: 100px;
+    background: #0c3257;
+    position: fixed;
+}
+#top .top-bj{
+    width: 1485px;
+    height: 100px;
+    margin: auto;
+}
+.top-bj .logo{
+    float: left;
+    margin-top: 25px;
+}
+.top-bj .nav{
+    float: right;
+}
+.top-bj .nav ul li{
+    float: left;
+    width: 150px;
+    text-align: center;
+    line-height: 98px;
+}
+.top-bj .nav ul li a{
+    color: #a7a7a7;
+    font-size: 25px;
+}
+.top-bj .nav ul li:hover a{
+    color: #fff;
+}
+.top-bj .nav ul li .sy{
+    color: #fff;
+}
+.banner{
+    width: 1920px;
+    height: 650px;
+    margin: auto;
+    cursor: wait;
+}
+#wdxx{
+    width: 1485px;
+    height: 925px;
+    margin: auto;
+    overflow: hidden;
+}
+#wdxx .wdxx-r{
+    width: 1485px;
+    height: 133px;
+    margin-top: 124px;
+    margin-bottom: 98px;
+    background: url(../img/k.png);
+    text-align: center;
+}
+#wdxx .wdxx-r p{
+    font-size: 45px;
+    margin-left: -25px;
+    padding-top: 13px;
+}
+#wdxx .wdxx-m{
+    width: 1485px;
+    height: 505px;
+}
+#wdxx .wdxx-m .tp{
+    margin-left: 95px;
+    float: left;
+    margin-right: 100px;
+}
+#wdxx .wdxx-m .js{
+    width: 487px;
+    height: 386px;
+    float: left;
+    margin-top: 47px;
+}
+#wdxx .wdxx-m .js .xx{
+    height: 81px;
+    background: #2a5b8a;
+    line-height: 81px;
+    margin-bottom: 21px;
+}
+#wdxx .wdxx-m .js .xx:nth-child(1) a{
+    font-size: 28px;
+    color: #fac021;
+    margin-left: 28px;
+}
+#wdxx .wdxx-m .js .xx a{
+    font-size: 28px;
+    color: #fff;
+    margin-left: 28px;
+}
+#wdxx .wdxx-m .js .xx a:hover{
+    color: #fac021;
+}
+#wdjn{
+    width: 1485px;
+    height: 850px;
+    margin: auto;
+    overflow: hidden;
+}
+#wdjn .wdjn-r{
+    width: 1485px;
+    height: 133px;
+    margin-top: 100px;
+    margin-bottom: 99px;
+    background: url(../img/k.png);
+    text-align: center;
+}
+#wdjn .wdjn-r p{
+    font-size: 45px;
+    margin-left: -25px;
+    padding-top: 13px;
+}
+#wdjn .wdjn-m{
+    display: flex;
+    justify-content: space-between;
+}
+#wdjn .wdjn-m dl{
+    width: 288px;
+    height: 517px;
+    text-align: center;
+}
+#wdjn .wdjn-m dl span{
+    font-size: 100px;
+    color: #fac021;
+    position: relative;
+    top: -244px;
+}
+#wdjn .wdjn-m dl dd{
+    font-size: 40px;
+    margin-top: -97px;
+}
+#wdzp{
+    width: 1485px;
+    height: 1730px;
+    margin: auto;
+    overflow: hidden;
+}
+#wdzp .wdzp-r{
+    width: 1485px;
+    height: 133px;
+    margin-top: 98px;
+    margin-bottom: 97px;
+    background: url(../img/k.png);
+    text-align: center;
+}
+#wdzp .wdzp-r p{
+    font-size: 45px;
+    margin-left: -25px;
+    padding-top: 13px;
+}
+#wdzp .wdzp-m{
+    /* display: flex;
+    justify-content: space-between; */
+}
+#wdzp .wdzp-m .yi{
+    width: 1481px;
+    height: 629px;
+    margin-bottom: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+#wdzp .wdzp-m .er{
+    width: 1481px;
+    height: 629px;
+    display: flex;
+    justify-content: space-between;
+}
+#wdzp .wdzp-m .er .zp:nth-child(2) img{
+    width: 321px;
+    height: 627px;
+    margin-left: 50px;
+}
+#wdzp .wdzp-m .zp{
+    width: 444px;
+    height: 626px;
+}
+#wdzp .wdzp-m .zp img{
+    width: 100%;
+    transition: 1s;
+}
+#wdzp .wdzp-m .zp a:hover img{
+    transform: scale(1.2,1.2);
+}
+#footer{
+    width: 1485px;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+#footer .footer-r{
+    width: 1485px;
+    height: 133px;
+    margin-top: 108px;
+    margin-bottom: 155px;
+    background: url(../img/k.png);
+    text-align: center;
+}
+#footer .footer-r p{
+    font-size: 45px;
+    margin-left: -25px;
+    padding-top: 13px;
+}
+#footer .footer-m{
+    width: 1195px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer-m dl{
+    width: 194px;
+    text-align: center;
+}
+#footer .footer-m dl dt img{
+    margin-bottom: 58px;
+}
+#footer .footer-m dl dd{
+    font-size: 36px;
+}
